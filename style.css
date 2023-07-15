@@ -1,7 +1,53 @@
-
+*{
+    
+    list-style: none;
+}
 
 .container {
     display: grid;
     grid-template-columns: 1fr 6fr;
     background-color: #2563eb;
+    gap: 15px;
+ 
+}
+
+.dash-container-left {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
+    background-color: #fb7185;
+}
+
+
+
+
+.header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
+}
+
+.downheader {
+    display: flex;
+    justify-content: space-around;
+}
+
+.downheader ul {
+    display: flex;
+
+}
+
+.dash-body{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+}
+
+.body-left{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
+.body-left >h2 {
+    grid-column: 1/ 3;
 }
